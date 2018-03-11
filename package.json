@@ -1,25 +1,28 @@
 {
-  "name": "dayofcss",
+  "name": "cssmainsetup",
   "version": "1.0.0",
-  "description": "practice the 100 days of CSS",
-  "main": "index.js",
+  "description": "Here I make CSS various projects",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://andriy.polukhin@gmail.com:Skillcraft_101@github.com/AndriyPolukhin/reusableCss.git"
+    "url": "git+https://github.com/AndriyPolukhin/reusableCss.git"
   },
-  "author": "Andriy",
+  "author": "Andriy Polukhin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AndriyPolukhin/reusableCss/issues"
   },
   "homepage": "https://github.com/AndriyPolukhin/reusableCss#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
-  },
-  "dependencies": {}
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-slim": "^0.3.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  }
 }
