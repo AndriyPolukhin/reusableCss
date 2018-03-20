@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+html lang="en"
+    head
+        meta charset="UTF-8"/
+        meta name="viewport" content="width=device-width, initial-scale=1.0"/
+        meta http-equiv="X-UA-Compatible" content="ie=edge"/
+        title Circle
+        link rel="stylesheet" href="../css/day10_clock.css"/
+    body
+        .frame
+            .center
+                - for i in (1..15)
+                    div class="point-set-#{ i }"
+                        - for j in (1..4)
+                            div class="point-#{ j }"
+                .ring
+                    .mask-1
+                        .spin
+                    .mask-2
+                        .spin
+                .date Mon 15 Jan 2018
+                .time 11:42
+                .beat <span class="fas fa-heart"></span>81
+                .energy 1248 kcal
