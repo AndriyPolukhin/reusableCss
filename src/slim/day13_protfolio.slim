@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html lang="en"
+    head
+        meta charset="UTF-8"/
+        meta name="viewport" content="width=device-width, initial-scale=1.0"/
+        meta http-equiv="X-UA-Compatible" content="ie=edge"/
+        title Document
+        link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"/
+        link rel="stylesheet" href="../css/day13_portfolio.css"/
+    body
+        .frame
+            - for i in (1..4)
+                div class="profile" id="profile-#{ i }"
+                    img src="../img/13-#{i}.jpg"
+                    div class="overlay"
+                    div class="plus"
+            div class="detail" id="detail-1"
+                div class="close"
+                img class="header" src="../img/13-1-header.jpg"
+                div class="image"
+                    img src="../img/13-1.jpg"
+                div class="infos"
+                    div class="name" Julia Toth
+                    div class="action"
+                        div class="btn"
+                            span class="fa fa-phone"
+                        div class="btn"
+                            span class="fa fa-comment"
+                        div class="btn"
+                            span class="fa fa-heart"
+
+        script src="../js/jquery-3.3.1.min.js"
+        script src="../js/day13_portfolio.js"
