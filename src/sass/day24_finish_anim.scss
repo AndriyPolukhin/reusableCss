@@ -12,9 +12,9 @@
     overflow: hidden;
     background: #57D895;
     color: #fff;
-    font-family: 'Open Sans', Helvetice, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothign: grayscale;
 }
 
 .hidden {
@@ -30,6 +30,7 @@
     top: 170px;
     left: 70px;
     border: 2px solid #fff;
+    border-radius: 30px;
     text-align: center;
     line-height: 56px;
     font-size: 20px;
