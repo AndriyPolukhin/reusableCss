@@ -34,7 +34,7 @@ gulp.task("scripts", function() {
         .pipe(gulp.dest("dist/js"));
 });
 
-/* USED IN CASE OF UGLIFY AND CONCAT JS
+// USED IN CASE OF UGLIFY AND CONCAT JS
 gulp.task('minify', function(cb) {
     pump([
         gulp.src('src/js/*.js'),
@@ -45,7 +45,7 @@ gulp.task('minify', function(cb) {
     cb
     );
 });
-*/
+
 
 // SASS to CSS
 

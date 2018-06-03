@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/AndriyPolukhin/reusableCss#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-slim": "^0.3.0",
     "gulp-uglify": "^3.0.0",
     "pump": "^3.0.0"
