@@ -93,9 +93,9 @@
 }
 
 #tab-1:checked~.content #box-1,
-#tab-2:checked:~.content #box-2,
-#tab-3:checked:~.content #box-3,
-#tab-4:checked:~.content #box-4 {
+#tab-2:checked~.content #box-2,
+#tab-3:checked~.content #box-3,
+#tab-4:checked~.content #box-4 {
     pointer-events: all;
     opacity: 1;
     transform: translateY(0);
