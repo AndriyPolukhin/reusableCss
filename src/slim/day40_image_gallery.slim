@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+html lang="en"
+  head
+    meta charset="UTF-8"/
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta http-equiv="X-UA-Compatible" content="ie=edge"/
+    title Image Gallery
+    link rel="stylesheet" href="../css/day40_image_gallery.css"/
+  body
+    .frame
+      .pics
+        - for i in (1..9)
+            <div class="pic pic-#{i}">
+              <img src="http://100dayscss.com/codepen/40-#{i}.jpg" alt="" /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    script src="../js/jquery-3.3.1.min.js"
+    script src="../js/day40_image_gallery.js"
