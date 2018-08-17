@@ -1,0 +1,27 @@
+<!doctype html>
+html lang="en"
+  head
+    meta charset="UTF-8"/
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta http-equiv="X-UA-Compatible" content="ie-Edge"/
+    title Counter
+    link rel="stylesheet" href="../css/day51_counter.css"
+  body
+    .frame
+      input type="checkbox" id="button" name="state"
+      label class="icon" for="button"
+        .pause
+        .play
+      .counter
+        div class="thousands number"
+          -for i in (0..9)
+            span class="number-#{i}" #{i}
+        div class="hundreds number"
+          -for i in (0..9)
+            span class="number-#{i}" #{i}
+        div class="tens number"
+          -for i in (0..9)
+            span class="number-#{i}" #{i}
+        div class="units number"
+          -for i in (0..9)
+            span class="number-#{i}" #{i}
