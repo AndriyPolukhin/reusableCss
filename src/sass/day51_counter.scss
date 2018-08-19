@@ -113,7 +113,7 @@
     }
   }
   .units {
-    animation: count 10s steps(10) infinite;
+    animation: count 10s steps(1) infinite;
   }
   .tens {
     animation: count 100s steps(1) infinite;
